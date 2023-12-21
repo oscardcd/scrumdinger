@@ -1,14 +1,9 @@
-//
-//  DetailEditView.swift
-//  Scrumdinger
-//
-//  Created by Oscar Correa on 12/20/23.
-//
-
 import SwiftUI
 
 struct DetailEditView: View {
-    @State private var scrum = DailyScrum.emptyScrum
+    @Binding var scrum : DailyScrum
+    
+   
     @State private var newAttendeeName = ""
     
     
@@ -25,6 +20,7 @@ struct DetailEditView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                         .accessibilityHidden(true)
                 }
+                ThemePicker(selection: $scrum.theme)
                 
             }
            
@@ -58,5 +54,5 @@ struct DetailEditView: View {
 }
 
 #Preview {
-    DetailEditView()
+    DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
 }
