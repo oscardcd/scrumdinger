@@ -18,6 +18,7 @@
 		CB3FE31B2B3138DD00A8A43F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FE31A2B3138DD00A8A43F /* ScrumsView.swift */; };
 		CB3FE31D2B313B9A00A8A43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3FE31C2B313B9A00A8A43F /* Assets.xcassets */; };
 		CB3FE31F2B31F2AB00A8A43F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FE31E2B31F2AB00A8A43F /* DetailView.swift */; };
+		CB3FE3212B33B6FC00A8A43F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FE3202B33B6FC00A8A43F /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CB3FE31A2B3138DD00A8A43F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		CB3FE31C2B313B9A00A8A43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/CreatingACardView/Complete/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		CB3FE31E2B31F2AB00A8A43F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CB3FE3202B33B6FC00A8A43F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				CB3FE31E2B31F2AB00A8A43F /* DetailView.swift */,
 				CB3FE3072B2BF7B500A8A43F /* Assets.xcassets */,
 				CB3FE3092B2BF7B500A8A43F /* Preview Content */,
+				CB3FE3202B33B6FC00A8A43F /* DetailEditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				CB3FE3172B31113300A8A43F /* DailyScrum.swift in Sources */,
 				CB3FE31F2B31F2AB00A8A43F /* DetailView.swift in Sources */,
+				CB3FE3212B33B6FC00A8A43F /* DetailEditView.swift in Sources */,
 				CB3FE3122B310F1200A8A43F /* CardView.swift in Sources */,
 				CB3FE3152B310F8E00A8A43F /* Theme.swift in Sources */,
 				CB3FE31B2B3138DD00A8A43F /* ScrumsView.swift in Sources */,
